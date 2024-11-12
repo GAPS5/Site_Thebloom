@@ -25,6 +25,21 @@
     display: inline;
     margin-right: 20px;
 }
+.ligação {
+    margin-right: 150px;
+    
+}
+.ligação a {
+    background-color: #50504f;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 1000px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.ligação a:hover {
+    color: #000000;
+    background-color: #FFD700;
+}
 .ligação .a1:hover {
     transform: scale(1.1);
 }
@@ -164,6 +179,13 @@
     width: 1262px;
     height: 500px;
     background-color: #703030;
+}
+.footerprincipal h2 {
+    font-family: "Roboto", serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #747474;
+    padding-left: 40px;
+    width: 1263px;
 }
 footer h2 {
     text-align: center;
