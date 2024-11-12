@@ -14,6 +14,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.segmentos h1, .information h2, .footerprincipal h2 {
+    font-family: "Roboto", serif;
+}
 .segmentos h1 {
     margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -189,6 +192,15 @@ footer h2 {
     margin-left: 5px;
     
 }
+.cadastro1 button {
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+}
+.cadastro1 button:hover {
+    background-color: rgb(58, 58, 58);
+}
 .cadastro1 h3 {
     margin-bottom: 16px;
 }
@@ -204,12 +216,21 @@ footer h2 {
     border: 5px solid rgb(128, 128, 128);
 }
 .cadastro2 button, input {
+    border-radius: 10px;
     display: block;
     width: 300px;
     height: 25px;
     margin-bottom: 16px;
     margin-left: 5px;
-    
+}
+.cadastro2 button {
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+}
+.cadastro2 button:hover {
+    background-color: rgb(58, 58, 58);
 }
 .cadastro2 h3 {
     margin-bottom: 16px;
